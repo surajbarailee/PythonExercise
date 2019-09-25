@@ -87,11 +87,14 @@ x = txt.rindex("casa")
 
 print(x)
 
-txt = "apple, banana, cherry , orange"
+txt = "apple, banana, cherry ,apple, orange"
 
 x = txt.rsplit(", ",2)
+print(x)
 
 print(x)
+check=[1,2,3,4,5,6]
+check.sort()
 
 txt = "Thank you for the music\nWelcome to the jungle"
 
