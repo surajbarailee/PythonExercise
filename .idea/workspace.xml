@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e9a0337-eed0-41f6-a934-530d30a4dcc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism-1 ducktyping.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.polymorphism">
-    <configuration name="Class an dObjects" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.json writer">
+    <configuration name="datetime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\barai\PycharmProjects\PythonExercises\Class and Objects.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datetime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="json reading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json reading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inner class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="json writer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inner class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json writer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/methods.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\barai\PycharmProjects\PythonExercises\jsonpython.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jsonpython" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polymorphism.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jsonpython.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.polymorphism" />
-        <item itemvalue="Python.inheritance" />
-        <item itemvalue="Python.inner class" />
-        <item itemvalue="Python.methods" />
-        <item itemvalue="Python.Class an dObjects" />
+        <item itemvalue="Python.json writer" />
+        <item itemvalue="Python.json reading" />
+        <item itemvalue="Python.jsonpython" />
+        <item itemvalue="Python.json" />
+        <item itemvalue="Python.datetime" />
       </list>
     </recent_temporary>
   </component>
