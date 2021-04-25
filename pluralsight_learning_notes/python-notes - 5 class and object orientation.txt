@@ -1,0 +1,42 @@
+class MyClass:
+	b='on Class'
+	def __init__(self):
+	self.a='asdasd'
+	MyClass.b='asd'
+
+There is no class scope in python
+
+
+static method
+
+
+class MyClass:
+	attribute='class'
+
+	@classmethod
+	def my_class_method(cls,message):
+	cls.attribute='asdasdasd'
+
+static method with inheritance
+
+@property      encapsulation 
+
+@attribute.setter
+
+self encapsulation
+
+
+fget and fset
+
+dont override properties directly.Delegate to regular methods and override those instead
+
+
+class decorators
+decorators factories
+
+data classes
+
+hash and hashability
+
+dataclass invariants
+

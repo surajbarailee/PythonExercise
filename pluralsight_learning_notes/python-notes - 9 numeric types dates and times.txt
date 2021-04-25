@@ -1,0 +1,39 @@
+ints represent integers
+magnitude of an int is only limited by momory and the time for computataion 
+ints are not fixed sized
+
+float is 64 bit floating point number
+one bit is sign bit 11 exponent 52 bits mantissa 
+you can convert decimals with 15 figures into python floats and back without loss of information
+
+
+import sys
+
+sys.float_info
+
+loss of precision in python float fractions and int conversion
+
+
+decimal.Decimal represents decimal values exactly
+
+
+fractions.Fraction
+
+complex numbers
+
+
+base conversions 
+
+
+the date time module
+
+datetime module platform dependencies
+
+
+tzinfo and timezone
+
+
+computataional geometry
+
+collinearity
+

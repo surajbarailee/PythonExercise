@@ -1,0 +1,16 @@
+python types :
+
+integers 
+rationals fraction.fraction(10,3)
+real float(2) , decimal.Decimal('10.30')
+complex: complex(3,1)
+
+Numeric tower :when you combine types you get the type below.
+
+sum([.1] * 10 )
+
+20,000 -> 20_000
+
+negative zero in floating points
+
+bankers rounding

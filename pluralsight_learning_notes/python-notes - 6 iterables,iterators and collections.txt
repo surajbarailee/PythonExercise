@@ -1,0 +1,72 @@
+Iterators decoup;e retrieval from structure
+
+iterator are forward iterator
+there are also reverse iterators but its also a forward iterators in general 
+
+iterator  = iter(iterable)
+
+try:
+item=  next(iterator)
+print(item)
+
+
+__iter__
+
+__next__
+
+iterable vs iterator
+
+level order pre order and inorder iterators
+
+sentinal objests are those nodes that are missed in a imperfect binary tree
+
+flexible iterators ordering ....filtering.. transforming augmenting grouping
+
+itertools
+
+
+
+
+iterators must also be iterables
+
+iterables
+
+
+alternative iterable protocol
+
+two arguement of iter
+
+iterator=  iter(callable,sentinel)
+
+
+
+container,sized,iterable,sequence,set,mapping,mutable sequence , mutable set,mutable mapping
+
+
+sorted frozen set
+
+
+
+TDD -red,green, refactor
+
+
+the container protocol
+
+the sized protocol
+
+iterable protocol
+
+
+sequence protocol
+
+
+extended sequence protocol
+
+
+pep 3119
+
+
+
+set protocol
+
+ 

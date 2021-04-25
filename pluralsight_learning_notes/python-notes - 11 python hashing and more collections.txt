@@ -1,0 +1,46 @@
+sequence types :
+a collection where contained objects are retrievable by their index.The object can report the number of contained objects. ( length )
+
+other sequence types : 
+tuple range bytes bytearray str memoryview
+
+
+
+abc.Sequence -> sequence.register(tuple, str, range, memoryview)
+
+abc.Sequence-> abc.MutableSequence -> list, bytearray
+
+abc.ByteString -> bytes, bytearray
+
+
+
+list is a sequence types 
+dict is a mapping type
+
+
+object hashing and equzlity
+why hashing is important ?
+
+HAshing is converting the value of an object of unknown sixe to a value of a fixed immutable size
+
+hash(obj) calls __hash__
+
+set dict and other mapping types care about hashing
+
+hash table for keys
+predictable hash values 
+
+hash collision
+if your object implements __hash__ you must also implement __eq__
+
+dataclass decorator
+
+
+defaultdict, counter and ordered dict
+
+
+named tuple
+
+namedtuple vs dataclass
+deque
+

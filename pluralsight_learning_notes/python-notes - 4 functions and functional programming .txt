@@ -1,0 +1,40 @@
+free functions - functions defined at module scope
+methods - functions defined within a class definition
+functions are objects and can be passed around just like any other objects.
+callable instances:
+__call__() allows instances od classes to be callable objects
+PEP308
+how sorted works
+functions vs lambdas
+extended argument syntax *args
+arbitrary arguement syntax **kwargs
+
+
+local functions -> functions defined inside other functions
+
+local functions :
+defined when def is executed
+new copy made for each enclosing invocation
+seperated name binding each time
+
+closure __closure__ attribute
+
+
+function factories
+nonlocal keywords
+
+decorators take a callable arguements and returns a callable
+functools.wraps
+parameterized decorators
+
+map filter and reduce
+
+repr(obj)
+str(obj)
+format(obj)
+
+
+type inspection with isinstance and issubclass
+
+
+multiple inheritance: method resolution order  __mro__  C3 algorithm

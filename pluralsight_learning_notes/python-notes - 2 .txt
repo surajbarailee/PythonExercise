@@ -1,0 +1,157 @@
+Interactive python ,also called  : REPL -Read Evaluate Print Loop
+whitespaces are necessary as indentation is important in python 
+
+Significant whitespaces in python programming means:
+Required readable indented code
+No clutter of braces
+Human and computer cant get out of sync
+Prefer four spaces
+Never mix spaces with tabs
+Be consistent on consecutive lines
+onyl deviate to improve readability
+
+Python Culture:PEP8 and PEP20
+
+
+
+
+Python Standard Library:
+import keyword
+
+import module_name
+
+help(module_name) to check what functions you have in the module
+
+
+
+
+Scalar Types : int float nonetype and bool
+
+
+control flows and while loops
+
+
+multilines :Three quotes
+
+escape sequences:\
+
+raw strings are :what you see is what you get
+string methods
+str is unicode 
+
+bytes in python
+
+
+
+Modularity in python
+
+
+when you do x=200
+python creates an int object with value 200 .MAkes an object reference x to point to that int object
+
+y=x
+
+this makes object reference y which points to int object 200
+
+
+id()function 
+
+
+
+a is b checks the equality of identity
+
+
+assignment object only ever binds objects to names ..IT never copies object to a  value
+
+
+python doesnt have variables in the sense of boxes holding a value. Python has named references to objects
+
+
+value equality  vs identity equality
+p=[4]
+q=[4]
+p==q True
+p is q False
+'
+
+
+function arguements are transferred using pass by object reference.References to objects are copied not the object themselves
+
+
+
+
+mutable default values
+
+
+def add_spam(menu=[])
+breakfast = ['bacon','eggs']
+add_spam(breakfast)
+add_spam()
+
+
+def add_spam(menu=[]):
+    menu.append('spam')
+    return menu
+    
+breakfast=['bacon','eggs']
+print(add_spam(breakfast))
+
+print(add_spam())
+print(add_spam())
+
+
+
+def add_spam(menu=None):
+	if menu is None:
+		menu = []
+		menu.append('spam')
+
+
+
+
+LEGB rules : LOcal Enclosing Globals and built in functions
+Global references can be read from local scopes
+
+use global to assign to global references from a local scopre
+everything in python is an object
+import and def bind names to objects
+type() reports the type of an object
+dir() introspects the attributes of an object
+You can access the name of a function or module with __name__
+doc string can be accesed through __doc__
+
+--------------------------------
+
+Tuples are immutable sequences of arbitrary objects
+
+e=() tuple
+e=(123) not tuple but an int
+e=1,2,3,4,5,6,7
+type(e) -> tuple
+
+
+
+strings are immutable. You cannot modify them in place
+
+use str.join() instead of + because concatenation with + results in temporaries
+"un1un".partition('forget')
+
+_ are used for unused or dummy values
+
+
+PEP 498 
+
+
+itertools.islice()
+itertools.count()
+all
+any
+zip
+
+
+
+
+
+
+
+

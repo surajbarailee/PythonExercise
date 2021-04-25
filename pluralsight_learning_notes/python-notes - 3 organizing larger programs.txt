@@ -1,0 +1,40 @@
+modularization
+how python locates modules -> checks sys.path that gives list of directories ...goes on checking for modules one by one ..if not found raises Import Error
+locatingh modules with python path
+
+package directory paths are stored in __path__
+sys.path controls module search
+
+PEP420 and __init__.py
+__init__.py optional in python 3.3+
+demo_Reader.__file__
+A package is a directory containing __init__.py file
+relative imports
+
+__all__ used to control from module import * behavior
+if not specified,import all public names
+must be a list of strings
+-Each entry is a name to import
+
+__all__=['asd','asd1']
+
+PEP 420 :implicit namespace packages
+
+executable directories
+
+executable zip files - python knows how to zip files
+
+__init.pr can execute any code it likes on import
+but only a package with __main__.py can be executed
+
+
+README.rst
+
+extending packages with plugins
+implementing plugins with namespace packages
+implementing pacjages with setuptools
+
+
+
+distribution packages:
+source and built distribution 

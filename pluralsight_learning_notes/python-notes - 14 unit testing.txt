@@ -1,0 +1,108 @@
+A unit is a small piece of code a method /function/class/related classes
+an automated unit test is designed by human runs without intervention reports either 'pass' or 'fail'
+
+Strictly Speaking Its not a unit test if it uses the filesystem, a database and/or the network
+but it might still be a useful test.
+
+each test case should excersice a unit of code if it works correctly.
+you should be able to run each test case independently as many times as you like
+
+several test on each unit can be writtern. But should not be depending.
+
+
+Test Runners:A command Line Test Runner
+Test Suites
+Test Fixtures setup/teardowns
+
+
+@unittest.skip("WIP")
+
+even if exception happens in test case method ...teardown will run
+but not if exception happens in setUp.
+
+the three parts of a test:
+Arrange : Set up the object to be tested,and collaborators
+Act :Excercies the unit under test
+Assert : Make claims about what happened
+
+
+test case should focus on much less things as possible
+
+
+====================================================
+
+
+Why unit test ?
+Understand what to Build
+Document the Units
+force you to Focus on design the unit
+Regression Protection
+Pinpointing failures
+
+
+Limitation of Unit Testing:
+hard to write if units have many dependencies
+test scenarios may not occur in production 
+tests may not notice failures
+unit tests do not find integration or non-functional problems
+
+
+UNIT TESTING IS A PART OF YOUR JOB
+
+
+Test Last , test First and Test Driven
+
+
+
+
+
+Test Support Collaboration 
+Pull git run test and then push
+
+Build Automation Server
+Continuous Integration 
+
+
+
+
+doctest: 
+
+test double
+xunitpatterns.com
+
+stubs
+unittest.mock
+fakes and dummy
+
+
+Mocks and spies
+
+monkey patching
+
+
+
+parameterized testings
+
+
+@pytest.mark.parametrize
+
+
+with self.subTest()
+
+--cov-branch
+
+
+
+mutation testing
+
+
+
+
+
+
+
+
+
+
+
+

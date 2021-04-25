@@ -1,0 +1,73 @@
+python is high level programming language
+Dynamic type system ....type checks is done during run time..
+readability
+interpreted language... aid in live debugging efforts ...meaning slow than compile code
+multipadadigm == oop and structural supported
+
+
+first python release 1991
+
+python 2.0 2000 -- garbage collector and python enhancement proposals
+python 3.0 2008
+
+
+pep 20 the zen of python
+
+beautiful is better than ugly 
+explicit is better than explicit
+simple is better than complex
+simple is hard
+perspective is worth 80IQ points
+complex is better than complicated
+readability counts
+maintainance is expensive
+obviously no bugs vs no obvious bugs
+
+
+
+
+python is different because ?
+extensible design  many pieces of functionality can be added in the core python code .... making core python small ad powerful
+Embeddable Scripting Language
+
+Community invloved design: PEP
+
+Emphasizing Fun : Monty Python
+
+Good Culture and community around python 
+
+
+
+
+
+
+Where python is being used?
+
+Machine Scripting and Administration 
+web development
+application scripting
+Big data
+machine learning
+
+
+
+python 2 and python 3
+
+python 3 is intentionally not backward compatible
+
+
+
+
+
+executing python code:
+
+
+interpreter :executing python file using python exe
+repl : call out to python code within the interactive repl 
+natively:------
+ipython3
+
+
+
+
+

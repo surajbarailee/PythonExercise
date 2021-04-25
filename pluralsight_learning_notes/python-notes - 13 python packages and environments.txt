@@ -1,0 +1,23 @@
+pip package installer for python
+vitrual environments
+
+
+package is a directory containing an __init__.py file
+pip -V
+pip show ...
+pip list
+
+
+virtualenv
+
+activating those virtualenvironments
+
+
+python -m pip freeze > requirements.txt
+
+
+virtualenvwrappers
+
+pipenv and poetry
+
+

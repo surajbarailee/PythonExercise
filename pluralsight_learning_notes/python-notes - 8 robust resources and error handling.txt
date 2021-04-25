@@ -1,0 +1,78 @@
+Its generally wrong idea to catch all the exception
+exception hierarchies
+related exception - > index error and key error
+IndexError.__mro__
+KeyError.__mro__
+LookupError
+
+
+exceptions payloads
+
+as e:
+	print(e.args())
+	print(str(e))
+	print(repr(e))
+
+
+
+PEP 352
+
+
+
+
+User defined exceptions
+
+exception chaining 
+implicit exception chaining  occurs when an exception is raised incidentally during processing of another
+the original exception is dtored on the __context__s
+
+
+explicit exception chaining
+
+
+tracebacks
+__traceback__
+format_tb()
+
+
+asertions and invariants
+
+assert[,message]
+
+assertions are used to check if the programmer has made a mistake
+
+do not use assertions to validate arguements
+
+
+class invariants
+
+the absence or presence of assertions should not affect the correctness of your program
+side effects of assertions
+
+
+
+postconditions of assertions
+
+context manager
+
+context manager protocol   __enter__() and __exit__()
+
+
+pep 343
+
+
+
+context manager decorator
+
+
+contextlib decorator
+exception propagation
+
+multiple context managers
+
+
+
+
+
+
+

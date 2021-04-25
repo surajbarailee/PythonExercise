@@ -1,0 +1,50 @@
+introspecting
+
+eafp easier to ask for forgiveness
+
+Look before you leap
+
+EAFP:
+
+try:
+    x = my_dict["key"]
+except KeyError:
+    # handle missing key
+LBYL:
+
+if "key" in my_dict:
+    x = my_dict["key"]
+else:
+    # handle missing key
+
+
+
+
+introspecting types
+
+type(type) is its own type
+
+issubclass()
+
+isinstance()
+
+
+introspecting objects
+
+dir()
+
+
+introspecting scopes
+
+
+globals()
+locals()
+
+
+
+inspect modules ismodule,getmembers,
+pep 484
+
+
+
+
