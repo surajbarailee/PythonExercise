@@ -1,3 +1,3 @@
 # PythonExercise
 
-A collection of python topics that I learnt and practiced
+A collection of python topics that I learnt and practiced.
